@@ -1,0 +1,236 @@
+EESchema Schematic File Version 4
+LIBS:MicroController-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MyComponent:NUCLEO-F303K8 A1
+U 1 1 5E119314
+P 3450 3600
+F 0 "A1" H 3500 4550 50  0000 R CNN
+F 1 "NUCLEO-F303K8" H 3750 4500 50  0000 R CNN
+F 2 "MyFootprint:NUCLEO_F303K8" H 3450 3600 50  0001 L BNN
+F 3 "" H 3450 3600 50  0001 L BNN
+F 4 "Unavailable" H 3450 3600 50  0001 L BNN "フィールド4"
+F 5 "None" H 3450 3600 50  0001 L BNN "フィールド5"
+F 6 "STMicroelectronics" H 3450 3600 50  0001 L BNN "フィールド6"
+F 7 "None" H 3450 3600 50  0001 L BNN "フィールド7"
+F 8 "NUCLEO-F303K8" H 3450 3600 50  0001 L BNN "フィールド8"
+	1    3450 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MyComponent:NUCLEO-F303K8 A1
+U 2 1 5E119EE9
+P 4100 3600
+F 0 "A1" H 4208 4565 50  0000 C CNN
+F 1 "NUCLEO-F303K8" H 4208 4474 50  0000 C CNN
+F 2 "MyFootprint:NUCLEO_F303K8" H 4100 3600 50  0001 L BNN
+F 3 "" H 4100 3600 50  0001 L BNN
+F 4 "Unavailable" H 4100 3600 50  0001 L BNN "フィールド4"
+F 5 "None" H 4100 3600 50  0001 L BNN "フィールド5"
+F 6 "STMicroelectronics" H 4100 3600 50  0001 L BNN "フィールド6"
+F 7 "None" H 4100 3600 50  0001 L BNN "フィールド7"
+F 8 "NUCLEO-F303K8" H 4100 3600 50  0001 L BNN "フィールド8"
+	2    4100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5E11E2B7
+P 4450 4850
+F 0 "J1" H 4558 5031 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4558 4940 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4450 4850 50  0001 C CNN
+F 3 "~" H 4450 4850 50  0001 C CNN
+	1    4450 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5E11EC1F
+P 4450 5250
+F 0 "J3" H 4558 5431 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4558 5340 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4450 5250 50  0001 C CNN
+F 3 "~" H 4450 5250 50  0001 C CNN
+	1    4450 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4850 4800 4850
+Wire Wire Line
+	4800 5250 4650 5250
+NoConn ~ 3050 4000
+NoConn ~ 3050 3900
+NoConn ~ 3050 3700
+NoConn ~ 3050 3800
+NoConn ~ 3050 3400
+NoConn ~ 3050 3300
+NoConn ~ 3050 3100
+NoConn ~ 4500 4300
+NoConn ~ 4500 4100
+NoConn ~ 4500 4000
+NoConn ~ 4500 3900
+NoConn ~ 4500 3300
+NoConn ~ 4500 3500
+NoConn ~ 4500 3600
+NoConn ~ 4500 3700
+NoConn ~ 4500 3200
+NoConn ~ 4500 3100
+NoConn ~ 4500 3000
+NoConn ~ 4500 2900
+NoConn ~ 4500 3800
+$Comp
+L power:GND #PWR01
+U 1 1 5E121BF7
+P 2900 3250
+F 0 "#PWR01" H 2900 3000 50  0001 C CNN
+F 1 "GND" H 2905 3077 50  0000 C CNN
+F 2 "" H 2900 3250 50  0001 C CNN
+F 3 "" H 2900 3250 50  0001 C CNN
+	1    2900 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3200 2900 3200
+Wire Wire Line
+	2900 3200 2900 3250
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5E1309D5
+P 5200 5200
+F 0 "J2" H 5172 5082 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 5172 5173 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 5200 5200 50  0001 C CNN
+F 3 "~" H 5200 5200 50  0001 C CNN
+	1    5200 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 4850 4800 5250
+Wire Wire Line
+	5000 4950 5000 5100
+Wire Wire Line
+	4650 4950 5000 4950
+Wire Wire Line
+	5000 5200 5000 5350
+Wire Wire Line
+	4650 5350 5000 5350
+Text GLabel 3050 3500 0    50   Input ~ 0
+SDA
+Text GLabel 3050 3600 0    50   Input ~ 0
+SCL
+$Comp
+L power:+3.3V #PWR08
+U 1 1 5E1354FF
+P 4650 4100
+F 0 "#PWR08" H 4650 3950 50  0001 C CNN
+F 1 "+3.3V" H 4665 4273 50  0000 C CNN
+F 2 "" H 4650 4100 50  0001 C CNN
+F 3 "" H 4650 4100 50  0001 C CNN
+	1    4650 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4100 4650 4200
+Wire Wire Line
+	4650 4200 4500 4200
+Text GLabel 4650 6000 2    50   Input ~ 0
+LED_B
+$Comp
+L power:GND #PWR05
+U 1 1 5E121D59
+P 4650 6100
+F 0 "#PWR05" H 4650 5850 50  0001 C CNN
+F 1 "GND" H 4655 5927 50  0000 C CNN
+F 2 "" H 4650 6100 50  0001 C CNN
+F 3 "" H 4650 6100 50  0001 C CNN
+	1    4650 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 4650 5900 2    50   Input ~ 0
+LED_G
+Text GLabel 4650 5800 2    50   Input ~ 0
+LED_R
+$Comp
+L Connector:Conn_01x04_Male J4
+U 1 1 5E11FDCE
+P 4450 5900
+F 0 "J4" H 4558 6181 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 4558 6090 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 4450 5900 50  0001 C CNN
+F 3 "~" H 4450 5900 50  0001 C CNN
+	1    4450 5900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5100 4350
+NoConn ~ 5100 4250
+NoConn ~ 5100 4150
+NoConn ~ 5100 4050
+Wire Wire Line
+	5400 3750 5400 3800
+Wire Wire Line
+	5100 3750 5400 3750
+Wire Wire Line
+	5400 3650 5100 3650
+Wire Wire Line
+	5400 3600 5400 3650
+$Comp
+L power:GND #PWR07
+U 1 1 5E13778D
+P 5400 3800
+F 0 "#PWR07" H 5400 3550 50  0001 C CNN
+F 1 "GND" H 5405 3627 50  0000 C CNN
+F 2 "" H 5400 3800 50  0001 C CNN
+F 3 "" H 5400 3800 50  0001 C CNN
+	1    5400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR06
+U 1 1 5E136C54
+P 5400 3600
+F 0 "#PWR06" H 5400 3450 50  0001 C CNN
+F 1 "+3.3V" H 5415 3773 50  0000 C CNN
+F 2 "" H 5400 3600 50  0001 C CNN
+F 3 "" H 5400 3600 50  0001 C CNN
+	1    5400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MyComponent:MPU6050 U1
+U 1 1 5E133E43
+P 4950 4000
+F 0 "U1" H 4958 4575 50  0000 C CNN
+F 1 "MPU6050" H 4958 4484 50  0000 C CNN
+F 2 "MyFootprint:MPU6050" H 4900 3900 50  0001 C CNN
+F 3 "" H 4900 3900 50  0001 C CNN
+	1    4950 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 5100 3850 2    50   Input ~ 0
+SCL
+Text GLabel 5100 3950 2    50   Input ~ 0
+SDA
+Text GLabel 3050 4100 0    50   Input ~ 0
+LED_R
+NoConn ~ 4500 3400
+Text GLabel 3050 4200 0    50   Input ~ 0
+LED_B
+NoConn ~ 3050 3000
+NoConn ~ 3050 2900
+Text GLabel 3050 4300 0    50   Input ~ 0
+LED_G
+$EndSCHEMATC
