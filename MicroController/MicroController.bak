@@ -228,9 +228,9 @@ Text GLabel 3050 4100 0    50   Input ~ 0
 LED_R
 NoConn ~ 4500 3400
 Text GLabel 3050 4200 0    50   Input ~ 0
-LED_G
+LED_B
 NoConn ~ 3050 3000
 NoConn ~ 3050 2900
 Text GLabel 3050 4300 0    50   Input ~ 0
-LED_B
+LED_G
 $EndSCHEMATC

@@ -68,10 +68,6 @@ F 3 "~" H 4450 5250 50  0001 C CNN
 	1    4450 5250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4650 4850 4800 4850
-Wire Wire Line
-	4800 5250 4650 5250
 NoConn ~ 3050 4000
 NoConn ~ 3050 3900
 NoConn ~ 3050 3700
@@ -110,24 +106,14 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Male J2
 U 1 1 5E1309D5
-P 5200 5200
-F 0 "J2" H 5172 5082 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 5172 5173 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 5200 5200 50  0001 C CNN
-F 3 "~" H 5200 5200 50  0001 C CNN
-	1    5200 5200
+P 5300 5100
+F 0 "J2" H 5272 4982 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 5272 5073 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 5300 5100 50  0001 C CNN
+F 3 "~" H 5300 5100 50  0001 C CNN
+	1    5300 5100
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4800 4850 4800 5250
-Wire Wire Line
-	5000 4950 5000 5100
-Wire Wire Line
-	4650 4950 5000 4950
-Wire Wire Line
-	5000 5200 5000 5350
-Wire Wire Line
-	4650 5350 5000 5350
 Text GLabel 3050 3500 0    50   Input ~ 0
 SDA
 Text GLabel 3050 3600 0    50   Input ~ 0
@@ -233,4 +219,18 @@ NoConn ~ 3050 3000
 NoConn ~ 3050 2900
 Text GLabel 3050 4300 0    50   Input ~ 0
 LED_G
+Wire Wire Line
+	4650 4850 5100 4850
+Wire Wire Line
+	5100 4850 5100 5000
+Wire Wire Line
+	5100 5100 5100 5250
+Wire Wire Line
+	5100 5250 4650 5250
+Wire Wire Line
+	4650 4950 4750 4950
+Wire Wire Line
+	4750 4950 4750 5350
+Wire Wire Line
+	4750 5350 4650 5350
 $EndSCHEMATC

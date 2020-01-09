@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 4)
-    (tracks 35)
+    (tracks 41)
     (zones 0)
     (modules 14)
     (nets 38)
@@ -417,7 +417,7 @@
   )
 
   (module Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical (layer F.Cu) (tedit 5C28146C) (tstamp 5E120B26)
-    (at 177.8 17.78 180)
+    (at 177.8 8.89 180)
     (descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST XH vertical")
     (path /5E11E2B7)
@@ -476,7 +476,7 @@
   )
 
   (module Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical (layer F.Cu) (tedit 5C28146C) (tstamp 5E11F5C0)
-    (at 175.26 88.9)
+    (at 175.26 96.52)
     (descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST XH vertical")
     (path /5E1309D5)
@@ -535,7 +535,7 @@
   )
 
   (module Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical (layer F.Cu) (tedit 5C28146C) (tstamp 5E11F5E9)
-    (at 165.1 88.9)
+    (at 165.1 93.98)
     (descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST XH vertical")
     (path /5E11EC1F)
@@ -719,6 +719,12 @@
   (segment (start 165.1 40.64) (end 162.56 40.64) (width 0.25) (layer B.Cu) (net 25))
   (segment (start 162.6 35.52) (end 162.56 35.56) (width 0.25) (layer B.Cu) (net 27))
   (segment (start 162.6 17.78) (end 162.6 35.52) (width 0.25) (layer B.Cu) (net 27))
+  (segment (start 147.32 38.1) (end 157.48 38.1) (width 0.25) (layer B.Cu) (net 28))
+  (via (at 157.48 33.02) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 28))
+  (segment (start 157.48 38.1) (end 157.48 33.02) (width 0.25) (layer B.Cu) (net 28))
+  (via (at 170.18 33.02) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 28))
+  (segment (start 157.48 33.02) (end 170.18 33.02) (width 0.25) (layer F.Cu) (net 28))
+  (segment (start 170.18 33.02) (end 170.18 48.26) (width 0.25) (layer B.Cu) (net 28))
   (segment (start 160.1 17.78) (end 160.1 38.02) (width 0.25) (layer B.Cu) (net 29))
   (segment (start 160.18 38.1) (end 162.56 38.1) (width 0.25) (layer B.Cu) (net 29))
   (segment (start 160.1 38.02) (end 160.18 38.1) (width 0.25) (layer B.Cu) (net 29))
